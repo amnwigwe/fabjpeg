@@ -16,23 +16,8 @@ while True:
     korean_time = country_time.strftime("%-I:%M:%S %p")
     print(country_time.strftime("%y%m%d"), country_time.strftime("%I:%M:%S%p"))
 
-    # API KEYS
-    FABJPEG_TWITTER_API_KEY = 'jnLAvuQgqChXL24HrN688eAOz'
-    FABJPEG_TWITTER_API_SECRET = '5QiW480Cf3D5dSNIinAMFvARo4KWIx4lIxig5WiCU1g7IeahNT'
-
-    FABJPEG_ACCESS_TOKEN = '1538224687125241864-5IWuxFO1NN9Qhl4IgOTc8NB1tRiZ95'
-    FABJPEG_ACCESS_TOKEN_SECRET = 's3GYjwmvVcmZI9KW7dNuV9DYYJrFrwmFWDtSkC4G5pDMR'
-
-    FABJPEG_CLIENT_ID = 'ZlVka1k0LU91SVo3TEZLWGRCM1E6MTpjaQ'
-    FABJPEG_CLIENT_SECRET = 'wiSMs9L5RFyD8pIVJgAnN9loAy23I1gqGdm1AXi8EL-l5-REAK'
-
-    fab_user_agent = 'fab|android|playstore|1.2.1|10|Android SDK built for x86|google|en|US'
-    API_URL = 'https://vip-fab-api.myfab.tv/fapi'
-    login_endpoint = '/2/signin'
-    artist_endpoint = '/2/groups/1'
-
-    email = '14theopensource@gmail.com'
-    pw = 'lufallyares123!A'
+    email = '*'
+    pw = '*'
 
     data_object = {
         'email': email,
@@ -134,7 +119,7 @@ while True:
             string_girl = "SHJ"
         return string_girl
 
-    #### while true is so it keeps running (i'll be using pythonanywhere so that it automatically runs)
+    #### while true is so it keeps running (i'll be using so that it automatically runs)
 
     print("testing to run 25s")
     time.sleep(25) ## code waits 25 seconds before running
